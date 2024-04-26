@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.d-item {
+    height: 500px;
+}
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+
+    filter: brightness(0.6)
+}
+
+.imagen{
+
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 350px;
+    height: 280px;
+    margin: 0 10px;
+   
+}
+.container{ 
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.display-4{
+
+    font-size: 2rem;
+    font-family: null;
+    font-style:  null;
+    font-weight: 300;
+    margin-top: 55px;
+    margin-left: 55px;
+}
+
+.display-5{
+
+    font-size: 2rem;
+    font-family: null;
+    font-style:  null;
+    font-weight: 300;
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+.container2{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+
+    align-items: flex-end;
+   background-color: skyblue; 
+
+}
+
+
+.container3 {
+    width: 80%;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: skyblue;
+    margin-bottom: 10px; 
+    position: relative;
+}
+
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    background: seagreen;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+}
+
+.menu-elem{
+    list-style: none;  
+}
+
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.75;
+    transition: 0.3s;
+
+}
+
+.menu.incon:hover{
+
+    opacity: 1;
+
+}
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.parrafo{   
+
+    margin-left: 160px;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: justify;
+
+    
+}
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
